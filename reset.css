@@ -1,0 +1,142 @@
+/*
+ *@version:1.0.0
+ *@author:wutianxiang
+ *@date:2015/10/10
+ *@description:reset for browser's styles 
+ */
+
+html {
+    color: #000;
+    background-color: #fff;
+}
+body {
+    line-height: 1.5;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+del,
+em,
+font,
+img,
+samp,
+small,
+strong,
+sub,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+:focus {
+    outline: 0;
+}
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/*@branch for IE6,IE7*/
+
+input,
+button,
+textarea,
+select {
+    *font-size: 100%;
+}
+ol,
+ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption,
+th {
+    text-align: left;
+}
+q,
+blcokquote {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content:"";
+    content: none;
+}
+
+a{
+    text-decoration: none;
+}
+:link,:visited{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
